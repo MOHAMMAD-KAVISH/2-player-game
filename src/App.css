@@ -40,3 +40,39 @@
 .read-the-docs {
   color: #888;
 }
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.board {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 4px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.status {
+  margin-top: 20px;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
